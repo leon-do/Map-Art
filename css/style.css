@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
+
+body{
+	background-color: #030A14;
+	font-family: 'Lato', sans-serif;
+}
+
+
+#loading{
+	top:150px;
+	left: 10px;
+	position: absolute;
+	color: white;
+	font-size: 50px;
+}
+
+
+#imageContainer{
+	display:none;
+}
+
+
+.input-group{
+	position: fixed;
+	top: 20px;
+	left: 10px;
+	width: 350px;
+}
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+
+
+#WC{
+	position: fixed;
+	left:10px;	
+	top:60px;
+	width: 348px;
+}
+#RC{
+	position: fixed;
+	left:10px;	
+	top:85px;
+	width: 348px;
+}
+#GC{
+	position: fixed;
+	left:10px;	
+	top:110px;
+	width: 348px;
+}
+#BC{
+	position: fixed;
+	left:10px;	
+	top:135px;
+	width: 348px;
+}
+
+#WC .slider-handle {
+	background: #ECECEC;
+}
+#RC .slider-handle {
+	background: #e74c3c; /*red*/
+}
+#GC .slider-handle {
+	background: #27ae60; /*green*/
+}
+#BC .slider-handle {
+	background: #2980b9; /*blue*/
+}
+
+
+#WC .slider-track-high, #WC .slider-selection{
+	background: #ECECEC;
+}
+#RC .slider-track-high, #RC .slider-selection{
+	background: #e74c3c;
+}
+
+#GC .slider-track-high, #GC .slider-selection{
+	background: #27ae60;;
+}
+
+#BC .slider-track-high, #BC .slider-selection{
+	background: #2980b9;
+}

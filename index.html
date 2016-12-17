@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	
+	<!-- put image here. will also hide -->
+	<div id="imageContainer"> </div>
+
+	<!-- artsy map -->
+	<canvas id="myCanvas2" width="1280" height="720"></canvas>
+
+	<!-- display original map on in here -->
+	<canvas id="myCanvas" width="1280" height="720"></canvas>
+
+
+
+	<!-- search bar -->
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Enter a Location" autofocus>
+      <span class="input-group-btn">
+        <button id="searchBttn" class="btn btn-default" type="button">></button>
+      </span>
+    </div><!-- /input-group -->
+
+	<!-- white slider aka zoom -->
+	<input type="text" class="slider slider-track-high" data-slider-min="10" data-slider-max="16" data-slider-step="1" data-slider-value="13" data-slider-id="WC" id="sliderW" data-slider-tooltip="hide" data-slider-handle="round" />		
+
+	<!-- red slider -->
+	<input type="text" class="slider slider-track-high" data-slider-min="-20" data-slider-max="20" data-slider-step="1" data-slider-value="0" data-slider-id="RC" id="sliderR" data-slider-tooltip="hide" data-slider-handle="round" />	
+
+	<!-- green slide -->
+	<input type="text" class="slider slider-track-high" data-slider-min="-20" data-slider-max="20" data-slider-step="1" data-slider-value="0" data-slider-id="GC" id="sliderG" data-slider-tooltip="hide" data-slider-handle="round" />	
+
+	<!-- blue slider -->
+	<input type="text" class="slider slider-track-high" data-slider-min="-20" data-slider-max="20" data-slider-step="1" data-slider-value="0" data-slider-id="BC" id="sliderB" data-slider-tooltip="hide" data-slider-handle="round" />	
+
+
+	<!-- loading screen. will hide after map loads -->
+	<div id="loading"> Loading...</div>
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/bootstrap-slider.min.js"></script>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
